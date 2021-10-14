@@ -23,8 +23,8 @@ In this project I built a mini pa farm which uses sun tracking solar panel to ef
   <b>IFTTT</b> is a service that allows the user to trigger a previously built event like sending a mail or adding data to sheets etc. It uses webhooks request to trigger the event and when the http request is triggered the event gets triggered.<br>
   <b>React</b>, the http request that the IFTTT webhook recieves is triggered by the react. The http request is added to the Things http and react uses it from here. In React we set the logical condition like if value in the field is <30 or the string contains &^* characters and if met it trigger this request. It can be set to trigger everytime the condition is met or the first time or every 10 times etc.<br>
   <b>Thingshttp</b> is a service offered by thingspeak to connect varies apis to thingspeak platform. In the thingshttp app the request of needed api is added and mode like GET or POST are given. It is then used by other services like React. In this case React triggers the GET Request which in turn triggers the event and sends a mail to user.<br><br>
-  <img src="https://github.com/Ruthvik-1411/IoT_Based_Smart_Agriculture_Model/blob/main/isas_ts01.jpg?raw=true" height=300 width=400>
-  <img src="https://github.com/Ruthvik-1411/IoT_Based_Smart_Agriculture_Model/blob/main/isas_mail.jpg?raw=true" height=300 width=500>
+  <img src="https://github.com/Ruthvik-1411/IoT_Based_Smart_Agriculture_Model/blob/main/isas_ts01.jpg?raw=true" height=300 width=350>
+  <img src="https://github.com/Ruthvik-1411/IoT_Based_Smart_Agriculture_Model/blob/main/isas_mail.jpg?raw=true" height=300 width=450>
   <br><br>
   The other block of the code reads the values of LDRs from the arrangement and aligns the mechanical setup using servo motor so that the solar panel is always directed towards maximum illumination. This block is the <a href="https://github.com/Ruthvik-1411/Sun_Following_Solar_Panel"> Sun tracking solar panel</a> that was built before.<br><br>
   Implementation Video Link: <a href="https://drive.google.com/file/d/1iZxccYPdfx272zXaMW7l_1YFA3T-oGFv/view?usp=sharing">Video</a>
