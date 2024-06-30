@@ -27,4 +27,4 @@ In this project I built a mini pa farm which uses sun tracking solar panel to ef
   <img src="https://github.com/Ruthvik-1411/IoT_Based_Smart_Agriculture_Model/blob/main/isas_mail.jpg?raw=true" height=300 width=450>
   <br><br>
   The other block of the code reads the values of LDRs from the arrangement and aligns the mechanical setup using servo motor so that the solar panel is always directed towards maximum illumination. This block is the <a href="https://github.com/Ruthvik-1411/Sun_Following_Solar_Panel"> Sun tracking solar panel</a> that was built before.<br><br>
-  Implementation Video Link: <a href="https://drive.google.com/file/d/1iZxccYPdfx272zXaMW7l_1YFA3T-oGFv/view?usp=sharing">Video</a>
+  YouTube Demo Video Link: https://youtu.be/6Th6-AA5KNU
